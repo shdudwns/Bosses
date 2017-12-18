@@ -1,6 +1,6 @@
 <?php
 
-namespace CortexPE\level\particle;
+namespace BajanVlogs\level\particle;
 
 use pocketmine\level\particle\GenericParticle;
 use pocketmine\math\Vector3;
