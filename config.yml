@@ -1,0 +1,17 @@
+---
+zombieBossItems:
+- - 0
+  - 0
+  - 0
+- - 0
+  - 0
+  - 0
+'bossItemDropFormat: ': DO NOT CHANGE THIS... I PUT IT HERE JUST SO YOU CAN READ IT.
+'FORMAT: ItemID: ': Diamond and some otheer loot
+'FORMAT: ItemDamage: ': The Loot's Damage (Good for Crate keys and Custom TNT)
+'FORMAT: Count: ': The loot's count
+winTitle: §cBoss
+winSubTitle: §aDefeated
+zombieBossCommands:
+- give %PLAYER% diamond 64 
+...
