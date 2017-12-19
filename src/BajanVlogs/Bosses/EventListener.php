@@ -106,7 +106,7 @@ class EventListener implements Listener {
 			$offsetX = $radius * sin($theta);
 			$offsetZ = $radius * cos($theta);
 
-			$e->getLevel()->addParticle(new SpellParticle($e->getPosition()->add($offsetX, 0, $offsetZ), $color[0], $color[1], $color[2]));
+			$e->getLevel()->addParticle(new FlameParticle($e->getPosition()->add($offsetX, 0, $offsetZ), $color[0], $color[1], $color[2]));
 			$this->spawnZombie($e->getPosition()->add($offsetX, 0, $offsetZ), mt_rand(13,20));
 		}
 	}
