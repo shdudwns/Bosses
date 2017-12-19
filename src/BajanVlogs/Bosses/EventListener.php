@@ -38,9 +38,9 @@ class EventListener implements Listener {
 						$nbt = Entity::createBaseNBT(new Vector3($ev->getBlock()->getX(), $ev->getBlock()->getY(), $ev->getBlock()->getZ()));
 						$nbt["BOSStype"] = new StringTag("BOSStype", "Giant");
 						$entity = Entity::createEntity("Zombie", $ev->getPlayer()->getLevel(), $nbt);
-						$entity->setScale(7);
-						$entity->setMaxHealth(3000);
-						$entity->setHealth(3000);
+						$entity->setScale(6);
+						$entity->setMaxHealth(500);
+						$entity->setHealth(500);
 						$entity->setNameTag("Giant\n" . TextFormat::RED . "❤ " . TextFormat::YELLOW . $entity->getHealth());
 						$entity->setNameTagAlwaysVisible(true);
 						$entity->spawnToAll();
