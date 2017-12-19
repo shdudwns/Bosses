@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace BajanVlogs\Bosses;
 
 use BajanVlogs\Bosses\task\HealTask;
-use BajanVlogs\level\particle\SpellParticle;
-use CortexPE\Player;
-use CortexPE\Server;
+use pocketmine\level\particle\FlameParticle;
+use pocketmine\Player;
+use pocketmine\Server;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\entity\Effect;
 use pocketmine\entity\Entity;
