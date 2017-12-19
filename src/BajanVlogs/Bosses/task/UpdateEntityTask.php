@@ -7,7 +7,7 @@ use pocketmine\scheduler\PluginTask;
 
 class UpdateEntityTask extends PluginTask{
 
-    public function onRun($currentTicks){
+    public function onRun(int $currentTicks){
         foreach(Main::getEntities() as $entity){
             if($entity->isCreated()) $entity->updateTick();
         }
